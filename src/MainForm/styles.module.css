@@ -1,24 +1,38 @@
 .formularioContainer{
+    background-color: #ffff;
+    padding: 1.25rem;
+    border-radius: 0.4rem;
+    box-shadow: 0 0.2rem 0,.4rem rgba(0, 0, 0, 0.5);
 
 }
 
 .titulo{
-
+    color: var(--cor-primaria);
+    margin-bottom: 1rem;
 }
 
 .label{
-  
+    color: var(--cor-texto-secundario);
+    margin-bottom: 0.3125rem;
 }
 
 .pularLinha{
-   
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.25rem;
 }
 
 .alinharBotao{
-
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.25rem;
 }
 
 .estiloSelect{
     padding: 0.265rem;
     border-color: var(--cor-divisor);
+    border: 1px solid var(--cor-divisor);
+    font-family: var(--fonte-padrao);
+    border-radius: 0.3125rem;
+    color: var(--cor-texto-secundario);
 }

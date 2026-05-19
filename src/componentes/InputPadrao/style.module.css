@@ -5,7 +5,9 @@
     font-family: var(--fonte-padrao);
     color: var(--cor-texto-principal);
     background-color: #fff;
+    border-radius: 0.3125rem;
     transition: border-color 0.3s ease;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
 }
 
 .input:focus{

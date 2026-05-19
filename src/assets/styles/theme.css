@@ -1,18 +1,18 @@
 :root {
   /* Cores Principais do tema */
-  --cor-primaria: #0800FF;
-  --cor-primaria-clara: #62b2eb;
-  --cor-primaria-escura: #2a6ba1;
+  --cor-primaria: #ec9fcf;
+  --cor-primaria-clara: #f1b1e1;
+  --cor-primaria-escura: #eec7e6;
 
   /* Cores Secundárias e de Fundo */
-  --cor-secundaria: #efefef;
-  --cor-fundo-tela: #e6f2ff;
+  --cor-secundaria: #ffc8f1;
+  --cor-fundo-tela: #f0d9ebda;
 
   /* Cores de Feedback / Status */
   --cor-erro: #ce0000;
   --cor-aviso: #f9a13a;
   --cor-sucesso: #34b831;
-  --cor-info: #62b2eb;
+  --cor-info: #ff4cb5;
 
   /* Cores de Texto e Divisórias */
   --cor-texto-principal: #01090f;
