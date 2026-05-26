@@ -71,13 +71,13 @@ export function MainForm({aoAdicionar, aoAtualizar, cursoEmEdicao}:MainFormProps
                         {/* //**{cursoEmEdicao ? 'Editar curso '}:{'Alterar Curso'} */}
 
                     </h2>
-                    <form><div className={styles.pularLinha}>
+                    <form onSubmit={cadastrarCurso}><div className={styles.pularLinha}>
                         <label htmlFor="nomeCurso" className={
                             styles.label}>Nome do curso</label>
                         <InputPadrao
                             id="nomeCurso"
                             type="text"
-                            name="nomeCurso"
+                            name="nomecurso"
                             placeholder="Digite o nome do curso"
                             value={dadosCurso.nomecurso}
                             onChange={lidarComMudanca}
@@ -105,7 +105,7 @@ export function MainForm({aoAdicionar, aoAtualizar, cursoEmEdicao}:MainFormProps
                         </div>
                         <div className={styles.alinharBotao}>
                             <BotaoPadrao type="submit">
-                                botao teste
+                                Inserir Curso
                             </BotaoPadrao>
                         </div>
                     </form>
